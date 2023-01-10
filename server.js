@@ -35,7 +35,9 @@ app.use(methodOverride("_method"))
 //   app.use(express.static('public'));
 app.use("/posting", postController);
 
-
+app.get("/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "build", "index.html"))
+})
 
 
 app.listen(3001, function() {
