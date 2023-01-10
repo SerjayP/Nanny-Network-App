@@ -1,8 +1,6 @@
 const express = require("express");
 const path = require('path');
-const Posts = require("./models/postModel")
 const app = express();
-const mongoose = require("mongoose");
 const methodOverride = require('method-override');
 
 
@@ -15,25 +13,24 @@ require("./config/database");
 // app.use(cors());
 app.use(express.json());
 
-mongoose.set('strictQuery', false);
-mongoose.connect(process.env.MONGO_URI)
+// mongoose.set('strictQuery', false);
+// mongoose.connect(process.env.MONGO_URI)
 
 app.use(methodOverride("_method")); // override for put and delete requests from forms
 app.use(express.urlencoded({ extended: true })); // parse urlencoded request bodies
 app.use(express.static("public")); // serve files from public statically
-
+app.use(express.static(path.join(__dirname, "build")))
 
 
 // ===== Middleware =====
-app.use((req, res, next) => {
-  console.log("Im running for all routes")
-  console.log("1. middleware")
-  next()
-})
+// app.use((req, res, next) => {
+//   console.log("Im running for all routes")
+//   console.log("1. middleware")
+//   next()
+// })
 
-app.use(express.urlencoded({extended: false}))
-app.use(methodOverride("_method"))
-//   app.use(express.static('public'));
+
+
 app.use("/posting", postController);
 
 app.get("/*", (req, res) => {
