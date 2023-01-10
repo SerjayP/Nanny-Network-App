@@ -1,4 +1,5 @@
 const express = require("express");
+const path = require('path');
 const Posts = require("./models/postModel")
 const app = express();
 const mongoose = require("mongoose");
