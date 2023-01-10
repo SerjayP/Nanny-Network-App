@@ -36,6 +36,10 @@ app.use("/posting", postController);
 app.get("/*", (req, res) => {
   res.sendFile(path.join(__dirname, "build", "index.html"))
 })
+app.get("*", (req, res) => {
+  res.redirect('/home') // Redirect site to site of choice('/home')
+
+});
 
 
 app.listen(3001, function() {
