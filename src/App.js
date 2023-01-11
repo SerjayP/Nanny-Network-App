@@ -17,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      <div>
         <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/sitters" element={<Sitters/>} />
@@ -29,6 +30,7 @@ function App() {
         <Route path="/*" element={<Navigate to="/home" />} />
         {/* <Route path="/edit/:id" element={<Edit />} /> */}
       </Routes>
+      </div>
       <Footer />
     </div>
   );
