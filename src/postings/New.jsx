@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Row, Col, Button} from 'react-bootstrap';
 
 
 function CreatePosting() {
@@ -29,9 +30,15 @@ function CreatePosting() {
     }
 
   return (
-    <div className="create">
+    <main className="pt-3 pb-5">
+      <Row>
+        <h1>Find A Sitter</h1>
+        <Col sm="6">
+      <img width="100%" src="https://post.healthline.com/wp-content/uploads/2020/11/834360-Best-Babysitting-websites-and-Apps-732x549-Feature.jpg" />
+        </Col>
+        <Col>
       <form action="/posting" method="POST" >
-        <h2>Name:</h2>
+        <h5>Name:</h5>
         <input
           onChange={handleChange}
           name="parentName"
@@ -40,7 +47,7 @@ function CreatePosting() {
           placeholder="Your Name"
           required
         />
-        <h2>Phone Number:</h2>
+        <h5>Phone Number:</h5>
          <input
           onChange={handleChange}
           name="contactNumber"
@@ -51,8 +58,8 @@ function CreatePosting() {
           placeholder="Phone Number"
           required
         />
-        <small>Format: XXX-XXX-XXXX</small>
-        <h2>Email:</h2>
+        <small style={{ color: '#ff0000'}}>  (Format: XXX-XXX-XXXX)*</small>
+        <h5>Email:</h5>
          <input
           onChange={handleChange}
           name="contactEmail"
@@ -62,7 +69,7 @@ function CreatePosting() {
           placeholder="Email address"
           required
         />
-        <h2>Number of Children:</h2>
+        <h5>Number of Children:</h5>
         <input
           onChange={handleChange}
           name="numberOfChildren"
@@ -73,7 +80,7 @@ function CreatePosting() {
           placeholder="Number of Children"
           required
         />
-        <h2>Age of Children:</h2>
+        <h5>Age of Children:</h5>
         <input
           onChange={handleChange}
           name="ageOfChildren"
@@ -82,7 +89,7 @@ function CreatePosting() {
           placeholder="Age of Children"
           required
         />
-        <h2>Date & Time:</h2>
+        <h5>Date & Time:</h5>
         <input
           onChange={handleChange}
           name="date"
@@ -92,17 +99,20 @@ function CreatePosting() {
           placeholder="Date needed"
           required
         />
-        <h2>Location:</h2>
+        <h5>Location:</h5>
         <select name="location"  value={input.location} onChange={handleChange}>
         <option value="DEFAULT" disabled>Choose a city</option>
           <option value="New York City">New York City</option>
-          <option value="Hampton, VA<">Hampton, VA</option>
+          <option value="Hampton, VA">Hampton, VA</option>
           <option value="Coleman, Ohio">Coleman, Ohio</option>
         </select> <br /><br />
-        <button onClick={handleClick}>Create Posting</button>
+        <button className="glow-on-hover" >Create Posting</button>
       </form>
-      <h1>If you have any questions please contact us!</h1>
-    </div>
+      <br/>
+      <h5>If you have any questions please contact us!</h5>
+      </Col>
+      </Row>
+    </main>
   );
 }
 export default CreatePosting;

@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div>
+    <main className="pt-3">
       <h1>Contact Us</h1>
 
       <p>
@@ -40,6 +40,6 @@ export default function Contact() {
 
       
       <iframe src="https://giphy.com/embed/rVYbN0uxznAaI" width="480" height="365" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/babysitter-rVYbN0uxznAaI"></a></p><small>*If this happens call us!*</small>
-    </div>
+    </main>
   );
 }

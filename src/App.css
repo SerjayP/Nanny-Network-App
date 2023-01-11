@@ -5,108 +5,90 @@
   padding: 0;
 
 }
-.App {
 
-}
-ul {
-  margin-left: 25px;
-  /* padding-left: 10%; */
- 
+.App{
 
-}
-nav {
-  width: 100%;
-  background-color: #0000008d;
-  color: aqua;
-}
-nav ul {
-  margin-right: 25px;
-  display: inline;
-  list-style: none;
-
-}
-
-nav .Nav {
-  
   display: flex;
-  align-items: center;
-  justify-content:space-between; 
-  height: 50px;
-  font-family: Alata;
+  flex-direction: column;
 }
 
-body {
-    font-family: fredoka one;
-    background-color: #FFC8DD;
+main{
+  width: 80%;
+  margin: 0 auto;
 }
+
+header{
+  font-family: Alata;
+  width: 100%;
+  min-height: 70px;
+  background-color: #00A1E4;
+  text-align: center;
+  color: white;
+}
+
+footer{
+  width: 100%;
+  background-color: #00A1E4;
+  color: #ffffff;
+  height: 100px;
+}
+
+nav {
+  font-size: 20px; 
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+nav li a{
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:active{
+  color: white;
+  text-decoration: none;
+}
+
+
+
 .SitterIMG {
   width: 500px;
-  height: 500px;
 }
+
 .Sitter {
   width: 300px;
-  height: 300px;
   border: black 2px solid;
   margin: 2px;
 }
+
 .list-img{
-  width: 150px;
-  height: 150px;
+  width: 100%;
 }
+
 .size1 {
   width: 300px;
   height: 300px;
 }
+
 .bigBox {
   width: 100%;
   height: 500px;
 
 }
 
-.smallBox2 {
-  text-align: center;
-  /* color: beige; */
-  background-color: khaki;
-}
-.smallBox1 {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTohNVxt-gsCdyE-ueL3S-emurkNAVCXAI8Uw&usqp=CAU");
-  background-size: cover;
-}
-.firstBox{
-  text-align: center;
-  background-color: darksalmon;
-  height: 376px;
-}
-.firstPic {
-  text-align: center;
-}
-.mission{
-  background-image: url('https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Colorful-Circle-Simple-Background-Image-1.jpg');
-  background-size: cover;
-}
-
-.animate-charcter
-{
-   text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
-  display: inline-block;
-      font-size: 40px;
-}
 
 @keyframes textclip {
   to {
@@ -117,3 +99,7 @@ body {
 .create {
   background-image: url("https://www.welovesolo.com/wp-content/uploads/2016/11/31ufgwtz14qyr47.jpg");
 }
+.sitterBox:hover {
+  background: #fea700;
+}
+

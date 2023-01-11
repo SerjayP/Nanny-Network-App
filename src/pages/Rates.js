@@ -1,9 +1,10 @@
-
 import React from 'react';
+import { Row, Col, Card} from 'react-bootstrap';
 
 export default function Rates() {
   return (
-    <div className="Rates">
+    <main className="pt-3">
+    <div>
       <small>*These rates are pre-inflation. Rates will change on January 15, 2023 with an 200% increase.*</small>
       <h1>Our Rates</h1>
       <p>
@@ -12,34 +13,67 @@ export default function Rates() {
         length of the babysitting session, and any additional services
         requested.
       </p>
-      <h2>Standard Rates:</h2>
+      <Row className="pb-3">
+      <Col>
+      <Card className="mb-3" style={{ width: '300px', height: '200px', textAlign: 'center' }}>
+      <Card.Body>
+        <Card.Title>Basic Package</Card.Title>
+        <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/30/null/external-blocks-children-toys-vitaliy-gorbachev-lineal-color-vitaly-gorbachev-2.png"/>
+        <h1>$15</h1>
+        <Card.Text>
+        $15 per hour for one child
+        </Card.Text>
+      </Card.Body>
+    </Card>
+    </Col>
+    <Col>
+    <Card className="mb-3" style={{ width: '300px', height: '200px', textAlign: 'center' }}>
+      <Card.Body>
+        <Card.Title>Premium Package</Card.Title>
+        <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/30/null/external-blocks-children-toys-vitaliy-gorbachev-lineal-color-vitaly-gorbachev-1.png"/>
+        <h1>$20</h1>
+        <Card.Text>
+        $20 per hour for two children
+        </Card.Text>
+      </Card.Body>
+    </Card>
+    </Col>
+    <Col>
+    <Card className="mb-3" style={{ width: '300px', height: '200px', textAlign: 'center' }}>
+      <Card.Body>
+        <Card.Title>Elite Package</Card.Title>
+        <img src="https://img.icons8.com/external-vitaliy-gorbachev-lineal-color-vitaly-gorbachev/30/null/external-blocks-children-toys-vitaliy-gorbachev-lineal-color-vitaly-gorbachev.png"/>
+        <h1>$25</h1>
+        <Card.Text>
+        $25 per hour for three or more children
+        </Card.Text>
+      </Card.Body>
+    </Card>
+    </Col>
+    </Row>
+      
 
-      <ul>
-        <li>$15 per hour for one child</li>
-        <li>$20 per hour for two children</li>
-        <li>$25 per hour for three or more children</li>
-      </ul>
+      <h3>Additional Services:</h3>
 
-      <h2>Additional Services:</h2>
 
-      <ul>
         <li>$5 per hour for each additional child over three </li>
         <li>$5 per hour for meal preparation</li>
         <li>
           $10 per hour for light housekeeping tasks (such as picking up toys or
           loading/unloading the dishwasher)
         </li>
-      </ul>
+    <br/>
 
-      <h2>Discounts:</h2>
+      <h3>Discounts:</h3>
 
-      <ul>
+      
         <li>10% discount for booking 4 or more consecutive hours</li>
 
         <li>5% discount for booking 10 or more consecutive hours</li>
-      </ul>
+      
+      <br/>
 
-      <h2>Example:</h2>
+      <h3>Example:</h3>
       <p>
         If you have two children and would like the babysitter to stay for 4
         hours while also preparing meals and doing light housekeeping tasks, the
@@ -67,5 +101,6 @@ export default function Rates() {
 
       <p>Please note that these rates are subject to change. For the most current rates, please contact us at support@theNannyNetwork.com.</p>
     </div>
+    </main>
   );
 }

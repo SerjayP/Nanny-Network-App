@@ -1,7 +1,7 @@
 export default [
     {
         index: 0,
-        img: 'https://images.pexels.com/photos/3767392/pexels-photo-3767392.jpeg?auto=compress&cs=tinysrgb&w=800',
+        img: 'https://i.imgur.com/wIy3pwL.jpg',
         name: 'Sophia Williams',
         age: 21,
         gender: 'Female',
@@ -11,7 +11,7 @@ export default [
     },
     {
         index: 1,
-        img: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGVhZHNob3R8ZW58MHwyfDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60',
+        img: 'https://i.imgur.com/pkhZnne.jpg',
         name: 'Ethan Jackson',
         age: 24,
         gender: 'Male',
@@ -21,7 +21,7 @@ export default [
     },
     {
         index: 2,
-        img: 'https://images.pexels.com/photos/6769641/pexels-photo-6769641.jpeg?auto=compress&cs=tinysrgb&w=800',
+        img: 'https://i.imgur.com/fSs6WDI.jpg',
         name: 'Olivia Rodriguez',
         age: 19,
         gender: 'Female',
@@ -31,7 +31,7 @@ export default [
     },
     {
         index: 3,
-        img: 'https://images.pexels.com/photos/11505029/pexels-photo-11505029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+        img: 'https://i.imgur.com/uezdbbq.jpg',
         name: 'Stephanie Johnson',
         age: 25,
         gender: 'Female',
@@ -41,7 +41,7 @@ export default [
     },
     {
         index: 4,
-        img: 'https://images.pexels.com/photos/3799717/pexels-photo-3799717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+        img: 'https://i.imgur.com/JCB6Lcu.jpg',
         name: 'Benjamin Davis',
         age: 22,
         gender: 'Male',
@@ -51,7 +51,7 @@ export default [
     },
     {
         index: 5,
-        img: 'https://images.pexels.com/photos/5082976/pexels-photo-5082976.jpeg?auto=compress&cs=tinysrgb&w=800',
+        img: 'https://i.imgur.com/L3dNE8W.jpg',
         name: 'Josiah Thompson',
         age: 30,
         gender: 'Male',
@@ -61,7 +61,7 @@ export default [
     },
     {
         index: 6,
-        img: 'https://images.pexels.com/photos/9522822/pexels-photo-9522822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+        img: 'https://i.imgur.com/5w9YQWL.jpg',
         name: 'Chloe Johnson',
         age: 24,
         gender: 'Female',
@@ -71,7 +71,7 @@ export default [
     },
     {
         index: 7,
-        img: 'https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+        img: 'https://i.imgur.com/2hYtdna.jpg',
         name: 'Jasmine Moore',
         age: 19,
         gender: 'Female',
@@ -81,9 +81,9 @@ export default [
     },
     {
         index: 8,
-        img: '../images/Screen Shot 2022-12-21 at 5.05.32 PM.png',
+        img: 'https://i.imgur.com/RZLls67.png',
         name: 'Bethelhem Shawla',
-        age: 26,
+        age: 27,
         gender: 'Female',
         education: 'College degree',
         interest: ['Coding, Watching movies'],
@@ -91,7 +91,7 @@ export default [
     },
     {
         index: 9,
-        img: 'https://images.pexels.com/photos/5303010/pexels-photo-5303010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+        img: 'https://i.imgur.com/B60AHMH.jpg',
         name: 'Emily Smith',
         age: 18,
         gender: 'Female',

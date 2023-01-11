@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <>
+    <main className="pt-3">
       <h1>Welcome to our babysitting company!</h1>
       <br />
       <p>
@@ -51,6 +51,6 @@ export default function About() {
       <p>In the event of an emergency, our babysitters are trained to take appropriate action and to contact the parents or emergency services as needed.</p>
       <br/>
       <p>We understand that the safety of your children is of the utmost importance, and we are dedicated to providing the highest level of care and safety for them while in our care. Thank you for choosing us for your babysitting needs.</p>
-    </>
+    </main>
   );
 }

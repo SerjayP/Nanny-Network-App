@@ -10,6 +10,7 @@ import CreatePosting from './postings/New';
 import SitterPage from './pages/SitterPage';
 import Postings from './pages/Postings';
 import Edit from './postings/Edit'
+import Footer from './components/Footer';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path="/*" element={<Navigate to="/home" />} />
         {/* <Route path="/edit/:id" element={<Edit />} /> */}
       </Routes>
+      <Footer />
     </div>
   );
 }
