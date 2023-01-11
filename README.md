@@ -1,34 +1,34 @@
-**Babysitting Web Application**
 
-Welcome to the *Nanny Network!* This application allows users to find and connect with babysitters in their local area. <br />
+![Logo](https://i.imgur.com/mYKAtMI.png)
 
-**Features:**  <br /><br />
 
-**Create a profile as a babysitter or parent**  <br />
+# The Nanny Network
 
-* Search for babysitters by location and availability
-* Contact and book babysitters through the platform
-* Leave ratings and reviews for babysitters
-* View profiles and ratings for babysitters in your area  <br /> <br />
+Have you ever wanted to go out but no trusted babysitter with your children? Well the Nanny Network matches you with trusted nannies in your local area in minutes! So finally you can get back to going out!
 
-**Getting Started** <br />
+This application was built using JavaScript, React, MongoDB, and Express. It provides a platform for users to find and book babysitters in their local area. The application is a full CRUD (Create, Read, Update, and Delete) application, providing users with the ability to create a posting, search for babysitters, book babysitters, and manage their bookings.
 
-1. Go to the application website and sign up for an account.
-2. Fill out your profile as a babysitter or parent. Be sure to include your location and availability.
-3. Search for babysitters in your area using the search function.
-4. Contact and book a babysitter through the platform.
-5. Leave a rating and review for the babysitter after your booking is complete.<br />
+## Screenshots
+Home Screen
+![App Screenshot](https://i.imgur.com/ctSNlW2.png)
+Rates Page
+![App Screenshot](https://i.imgur.com/V4toDfl.png)
+Book Us
+![App Screenshot](https://i.imgur.com/3cBNo2v.png)
 
-**Tips for Parents**<br />
 
-* Make sure to thoroughly review a babysitter's profile and ratings before booking.
-* Communicate with the babysitter beforehand to discuss any specific instructions or requirements.
-* Leave a detailed review to help other parents make informed decisions.
-Tips for Babysitters
-* Complete your profile and availability information to make it easier for parents to find you.
-* Respond promptly to booking requests and messages from parents.
-* Be reliable and professional when working with families.
-* Ask for reviews from satisfied families to build up your reputation on the platform.<br />
+## Tech Stack
+
+**Client:** React, Bootstrap, Express, MongoDB, JS
+
+**Server:** Node, Express
+
+
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/serjayparks/)
+[![Live Site](https://i.imgur.com/GeBpeNu.png)](https://nanny-network.onrender.com/home)
+
+
 
 **Support** <br />
 
